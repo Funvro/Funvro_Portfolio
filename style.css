@@ -1,0 +1,14 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:#06070b;color:#fff}
+.hero{min-height:56vh;display:flex;align-items:center;justify-content:center;text-align:center;background:radial-gradient(circle at top,#0f172a 0%,#06070b 60%)}
+.hero-inner{padding:32px}.logo{width:120px;height:auto;margin-bottom:20px;filter:drop-shadow(0 8px 30px rgba(37,99,235,.35))}
+.hero h1{margin:0;font-size:clamp(2rem,5vw,4rem);font-weight:800;letter-spacing:.04em}.hero p{margin-top:10px;color:#b8c2d9;font-size:1.05rem}
+.container{width:min(1100px,92vw);margin:0 auto;padding:28px 0 80px}.card{background:#0d1118;border:1px solid #1b2230;border-radius:24px;padding:24px;margin-bottom:24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.about h2,.section-head h2,.contact h2{margin:0 0 14px;font-size:1.35rem}.about p,.contact p{margin:0;color:#c9d3ea;line-height:1.7}
+.section-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}.gallery{display:grid;gap:18px}.thumbs{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.pfps{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.gallery img{width:100%;display:block;border-radius:18px;border:1px solid #20283a;cursor:pointer;transition:transform .28s ease,box-shadow .28s ease}
+.gallery img:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 16px 40px rgba(37,99,235,.18)}
+.contact-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.contact-buttons a{text-decoration:none;color:#fff;background:#2563eb;padding:12px 18px;border-radius:12px;font-weight:600;transition:background .25s ease,transform .25s ease}
+.contact-buttons a:hover{background:#3b82f6;transform:translateY(-2px)}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:24px;z-index:1000}.lightbox.show{display:flex}
+.lightbox-img{max-width:96vw;max-height:92vh;border-radius:18px;border:1px solid #2a3448}.close{position:absolute;top:18px;right:24px;font-size:42px;line-height:1;cursor:pointer;color:#fff}
+@media (max-width:640px){.card{padding:18px}.hero{min-height:48vh}.logo{width:96px}.contact-buttons a{flex:1 1 120px;text-align:center}}
