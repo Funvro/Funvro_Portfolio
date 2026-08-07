@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FVR Visuals</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#050816;
+      color:white;
+      padding:20px;
+    }
+
+    .container{
+      max-width:900px;
+      margin:auto;
+    }
+
+    .card{
+      background:#0b1220;
+      border:1px solid #16213a;
+      border-radius:28px;
+      padding:22px;
+      margin-bottom:24px;
+      box-shadow:0 0 25px rgba(0,0,0,.35);
+    }
+
+    .center{
+      text-align:center;
+    }
+
+    .logo{
+      width:110px;
+      height:110px;
+      object-fit:contain;
+      margin-bottom:14px;
+    }
+
+    h1{
+      font-size:34px;
+      margin-bottom:8px;
+    }
+
+    .subtitle{
+      color:#9fb0d0;
+      margin-bottom:16px;
+    }
+
+    p{
+      color:#d6def1;
+      line-height:1.7;
+      font-size:17px;
+    }
+
+    h2{
+      font-size:28px;
+      margin-bottom:18px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+
+    .item{
+      background:#09111d;
+      border:1px solid #1a2a46;
+      border-radius:22px;
+      overflow:hidden;
+      transition:.25s ease;
+    }
+
+    .item:hover{
+      transform:translateY(-4px);
+      border-color:#3b82f6;
+    }
+
+    .item img{
+      width:100%;
+      display:block;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      background:#111827;
+    }
+
+    .avatar img{
+      aspect-ratio:1/1;
+    }
+
+    .label{
+      padding:14px;
+      font-weight:700;
+      font-size:16px;
+    }
+
+    .contact{
+      text-align:center;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:14px;
+      padding:12px 20px;
+      border-radius:999px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
+      font-weight:700;
+    }
+
+    .footer{
+      text-align:center;
+      color:#8fa0c2;
+      margin-top:10px;
+      font-size:14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="card center">
+      <img src="./images/fvr-logo.png" alt="FVR Logo" class="logo">
+
+      <h1>FVR Visuals</h1>
+      <div class="subtitle">Premium Gaming Thumbnails • Avatars • Cinematic Visuals</div>
+
+      <p>
+        FVR Visuals is my creative brand dedicated to premium gaming thumbnails,
+        avatars, and cinematic visuals. The goal is to combine clean composition,
+        strong lighting, and professional presentation without changing the originality
+        of the artwork.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Thumbnail Gallery</h2>
+
+      <div class="grid">
+        <div class="item">
+          <img src="./images/warden.jpg" alt="Warden Cinematic">
+          <div class="label">Warden Cinematic</div>
+        </div>
+
+        <div class="item">
+          <img src="./images/hammer.jpg" alt="Hammer Fight">
+          <div class="label">Hammer Fight</div>
+        </div>
+
+        <div class="item">
+          <img src="./images/nether.jpg" alt="Nether Battle">
+          <div class="label">Nether Battle</div>
+        </div>
+
+        <div class="item">
+          <img src="./images/live.jpg" alt="Live Thumbnail">
+          <div class="label">Live Thumbnail</div>
+        </div>
+
+        <div class="item">
+          <img src="./images/galaxy.jpg" alt="Galaxy Team">
+          <div class="label">Galaxy Team</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>PFP / Avatar Gallery</h2>
+
+      <div class="grid">
+        <div class="item avatar">
+          <img src="./images/green-avatar.jpg" alt="Green Avatar">
+          <div class="label">Green Avatar</div>
+        </div>
+
+        <div class="item avatar">
+          <img src="./images/blue-avatar.jpg" alt="Blue Avatar">
+          <div class="label">Blue Avatar</div>
+        </div>
+
+        <div class="item avatar">
+          <img src="./images/purple-avatar.jpg" alt="Purple Crown Avatar">
+          <div class="label">Purple Crown Avatar</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card contact">
+      <h2>Contact</h2>
+      <p>For paid works, thumbnails, avatars, and custom gaming visuals.</p>
+
+      <a class="btn" href="https://www.fiverr.com/" target="_blank">Order on Fiverr</a>
+    </div>
+
+    <div class="footer">
+      © 2026 FVR Visuals • Crafted by Funvro
+    </div>
+
+  </div>
+</body>
+    </html>
